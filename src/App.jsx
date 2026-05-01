@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
-import TaskInput from "./components/TaskInput";
-import TaskList from "./components/TaskList";
+import TaskInput from "./components/Taskinput";
+import TaskList from "./components/Tasklist";
 import Stats from "./components/Stats";
 import ProgressBar from "./components/ProgressBar";
 import "./App.css";
