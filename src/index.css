@@ -1,0 +1,47 @@
+:root {
+  /* 🌌 Dark Theme (default) */
+  --bg-main: #0a1128;
+  --bg-secondary: #1c2541;
+  --bg-card: rgba(28, 37, 65, 0.8);
+
+  --accent: #22c55e;
+  --accent-alt: #3b82f6;
+
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+
+  --danger: #ef4444;
+  --warning: #f59e0b;
+
+  --shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  --transition: all 0.25s ease;
+}
+
+/* 🌞 Light Mode */
+[data-theme="light"] {
+  --bg-main: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+
+  --accent: #16a34a;
+  --accent-alt: #2563eb;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: var(--bg-main);
+  color: var(--text-primary);
+  transition: var(--transition);
+}
