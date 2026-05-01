@@ -4,6 +4,9 @@
 
 ---
 
+<p align="center">
+  <img src="banner.png" alt="Dhananjai Avva Personal Brand Banner" width="100%" />
+</p>
 
 
 ---
