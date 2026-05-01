@@ -1,16 +1,82 @@
-# React + Vite
+# 🎮 Gamified Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 🚀 **Turn productivity into a game. Level up your life.**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 What is this?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A **gamified task management web app** that makes productivity addictive.
+Complete tasks → Earn XP → Level Up 🎯
+
+No boring to-do lists. This is **productivity with a game engine mindset**.
+
+---
+
+## ⚡ Features
+
+✨ XP-based reward system
+📈 Dynamic progress bar (real-time updates)
+🏆 Level progression logic
+🌗 Light / Dark mode toggle
+🎨 Clean, modern UI with smooth interactions
+⚡ Instant feedback on task completion
+
+---
+
+## 🎮 How it Works
+
+* Add your tasks
+* Complete tasks → gain **+10 XP**
+* Every **50 XP = Level Up**
+* Track your progress visually
+
+---
+
+## 🛠 Tech Stack
+
+| Tech          | Usage                 |
+| ------------- | --------------------- |
+| ⚛️ React.js   | UI & State Management |
+| 🎨 CSS        | Custom Design System  |
+| 💡 JavaScript | Logic & Interactions  |
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │    ├── Navbar.jsx
+ │    ├── TaskInput.jsx
+ │    ├── TaskList.jsx
+ │    ├── Stats.jsx
+ │    ├── ProgressBar.jsx
+ │
+ ├── App.jsx
+ ├── App.css
+ ├── index.css
+```
+
+## 🔮 Future Improvements
+
+* 🔥 XP animations & sound effects
+* 🏅 Achievement badges system
+* 📅 Daily streak tracking
+* ☁️ Backend integration (Firebase / Node.js)
+* 🎮 Full game dashboard UI
+
+---
+## 💡 Author
+
+👤 **Dhananjai Avva**
+💻 B.Tech CSE | Athlete | Developer
+
+---
+
+> ⭐ If you like this project, give it a star — it motivates a lot!
