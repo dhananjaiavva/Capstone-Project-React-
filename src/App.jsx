@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./components/Navbar";
-import TaskInput from "./components/TaskInput";
-import TaskList from "./components/TaskList";
-import Stats from "./components/Stats";
-import ProgressBar from "./components/ProgressBar";
+import Navbar from "./Components/Navbar";
+import TaskInput from "./Components/TaskInput";
+import TaskList from "./Components/TaskList";
+import Stats from "./Components/Stats";
+import ProgressBar from "./Components/ProgressBar";
 import "./App.css";
 
 const App = () => {
